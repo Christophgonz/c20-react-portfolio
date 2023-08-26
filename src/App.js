@@ -2,11 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import About from "./components/pages/About";
-import Home from "./components/pages/Home";
-import Portfolio from "./components/pages/Portfolio";
-import Contact from "./components/pages/Contact";
-import Resume from "./components/pages/Resume";
+import { Home, About, Portfolio, Contact, Resume } from "./components/pages";
 
 const App = () => (
   <Router>

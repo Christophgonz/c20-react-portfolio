@@ -29,6 +29,25 @@ const examples = [
       "A MERN Application that allows users to help plan their dream vacations",
     id: "3asdf",
   },
+  {
+    link: "https://github.com/Christophgonz/social-network-api",
+    name: "Social Network API",
+    title: "A RESTful API for a social network web application",
+    id: "4asdf",
+  },
+  {
+    link: "https://github.com/Christophgonz/c19-text-editor",
+    name: "Text Editor",
+    title: "A text editor that allows users to save and edit text files",
+    id: "5asdf",
+  },
+  {
+    link: "https://github.com/Christophgonz/c12-employee-tracker",
+    name: "Employee Tracker",
+    title:
+      "A command-line application that allows users to manage a company's employee database",
+    id: "6asdf",
+  },
 ];
 export default function Portfolio() {
   return (
