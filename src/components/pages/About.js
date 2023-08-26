@@ -7,21 +7,11 @@ export default function About() {
       <h1>About Me</h1>
       <div className="artboard">
         <div className="artboard phone-1">
-          <img src={portrait} alt="" className="" />
+          <img src={portrait} alt="Face of the Developer" className="" />
         </div>
         <p className="col-md-10">
-          lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet
-          diam tortor, id consequat mauris ullamcorper eu. Orci varius natoque
-          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          Pellentesque et dui id justo finibus sollicitudin at et metus. Ut
-          lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet
-          diam tortor, id consequat mauris ullamcorper eu. Orci varius natoque
-          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          Pellentesque et dui id justo finibus sollicitudin at et metus. Ut
-          lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet
-          diam tortor, id consequat mauris ullamcorper eu. Orci varius natoque
-          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          Pellentesque et dui id justo finibus sollicitudin at et metus. Ut
+          My name is Christopher Gonzales, an aspiring web developer. I am a
+          recent graduate of the ASU FullStacks Bootcamp.
         </p>
       </div>
     </div>
