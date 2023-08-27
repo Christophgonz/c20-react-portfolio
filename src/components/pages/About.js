@@ -1,18 +1,22 @@
-import React from "react";
-import portrait from "../assets/images/portrait.jpg";
+import React from 'react';
+import portrait from '../assets/images/portrait.jpg';
 
 export default function About() {
   return (
-    <div>
-      <h1>About Me</h1>
-      <div className="artboard">
-        <div className="artboard phone-1">
-          <img src={portrait} alt="Face of the Developer" className="" />
+    <div className='hero'>
+      <div className='hero-content flex-col lg:flex-row'>
+        <img
+          src={portrait}
+          alt='Face of the Developer'
+          className='max-w-sm rounded-lg shadow-2x1'
+        />
+        <div className='text-center lg:text-left'>
+          <h1 className='text-5xl font-bold'>About Me</h1>
+          <p className='py-6'>
+            My name is Christopher Gonzales, an aspiring web developer. I am a
+            recent graduate of the ASU FullStacks Bootcamp.
+          </p>
         </div>
-        <p className="col-md-10">
-          My name is Christopher Gonzales, an aspiring web developer. I am a
-          recent graduate of the ASU FullStacks Bootcamp.
-        </p>
       </div>
     </div>
   );
