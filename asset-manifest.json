@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/c20-react-portfolio/static/css/main.4da62354.css",
-    "main.js": "/c20-react-portfolio/static/js/main.19861320.js",
+    "main.css": "/c20-react-portfolio/static/css/main.00c375a5.css",
+    "main.js": "/c20-react-portfolio/static/js/main.eb5d519a.js",
+    "static/media/TravelWanderlust.png": "/c20-react-portfolio/static/media/TravelWanderlust.7940ec95146efe304d84.png",
+    "static/media/Pokezoo.png": "/c20-react-portfolio/static/media/Pokezoo.4bf9eeb1da4c677cd42c.png",
     "static/media/portrait.jpg": "/c20-react-portfolio/static/media/portrait.5e783f4c4fef05bc59d1.jpg",
+    "static/media/RandomFunFacts.png": "/c20-react-portfolio/static/media/RandomFunFacts.cb3c12d94f41e8e7df51.png",
     "index.html": "/c20-react-portfolio/index.html",
-    "main.4da62354.css.map": "/c20-react-portfolio/static/css/main.4da62354.css.map",
-    "main.19861320.js.map": "/c20-react-portfolio/static/js/main.19861320.js.map"
+    "main.00c375a5.css.map": "/c20-react-portfolio/static/css/main.00c375a5.css.map",
+    "main.eb5d519a.js.map": "/c20-react-portfolio/static/js/main.eb5d519a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4da62354.css",
-    "static/js/main.19861320.js"
+    "static/css/main.00c375a5.css",
+    "static/js/main.eb5d519a.js"
   ]
 }
