@@ -9,7 +9,7 @@ export default function Header({ currentPage, handlePageChange }) {
         <div className="navbar">
           <div className="flex flex-wrap navbar ">
             <Link to="/">
-              <button className="navbar-start btn btn-secondary text-xl">
+              <button className="navbar-start btn btn-primary text-xl">
                 Gonzales
               </button>
             </Link>

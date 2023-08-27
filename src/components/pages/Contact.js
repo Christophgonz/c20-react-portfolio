@@ -34,33 +34,39 @@ export default function Contact() {
     setName("");
     setEmail("");
     setMessage("");
-    setVisibility("visible");
+    setVisibility("visible py-4");
   };
 
   return (
-    <div>
+    <div className="p-4">
       <h1>Contact Page</h1>
-      <form className="form">
-        <div className="form-group">
-          <label for="name">Name:</label>
+      <form className="card card-bordered shadow-xl bg-base-300 px-4">
+        <div className="form-control">
+          <label className="label" for="name">
+            Name:
+          </label>
           <input
             type="text"
             value={name}
-            className="form-control"
+            className="input input-bordered"
             name="name"
             onChange={handleInputChange}
           />
-          <label for="email">Email address:</label>
+          <label className="label" for="email">
+            Email address:
+          </label>
           <input
             type="email"
             value={email}
-            className="form-control"
+            className="input input-bordered"
             name="email"
             onChange={handleInputChange}
           />
-          <label for="message">Message:</label>
+          <label className="label" for="message">
+            Message:
+          </label>
           <textarea
-            className="form-control"
+            className="textarea textarea-bordered"
             value={message}
             rows="5"
             name="message"
@@ -68,12 +74,12 @@ export default function Contact() {
           ></textarea>
           <button
             type="button"
-            className="btn btn-primary"
+            className="btn btn-primary py-2 px-4 mt-4"
             onClick={handleFormSubmit}
           >
             Submit
           </button>
-          <div>
+          <div className="">
             <p className={visibility}>Thank you for your input!</p>
           </div>
         </div>
