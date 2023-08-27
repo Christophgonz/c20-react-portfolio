@@ -5,9 +5,9 @@ export default function Project({ link, image, name, title }) {
     image = "https://via.placeholder.com/150";
   }
   return (
-    <div className="card card-bordered justify-content center">
+    <div className="card card-bordered justify-content center m-2">
       <div className="card-body">
-        <figure className="image is-4by3">
+        <figure className="">
           <img src={image} alt={name} />
         </figure>
         <h3 className="card-title">{name}</h3>

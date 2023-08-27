@@ -51,7 +51,7 @@ const examples = [
 ];
 export default function Portfolio() {
   return (
-    <div>
+    <div className="py-4">
       <div className="grid text-center">
         {examples.map((example) => (
           <Project key={example.id} {...example} />
