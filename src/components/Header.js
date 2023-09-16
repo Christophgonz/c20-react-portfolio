@@ -8,7 +8,7 @@ export default function Header({ currentPage, handlePageChange }) {
       <div className='container mx-auto'>
         <div className='navbar'>
           <div className='flex flex-wrap navbar '>
-            <Link to='/'>
+            <Link to='/c20-react-portfolio/'>
               <button className='btn btn-primary text-xl'>Gonzales</button>
             </Link>
             <Navigation
